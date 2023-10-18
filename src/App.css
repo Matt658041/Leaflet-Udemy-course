@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .App-logo {
@@ -26,6 +28,13 @@
 
 .App-link {
   color: #61dafb;
+}
+.fit-bounds-control-container {
+ display:grid
+}
+.leaflet-container {
+  height: 100vh;
+  width: 100%;
 }
 
 @keyframes App-logo-spin {
